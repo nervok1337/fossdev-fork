@@ -6,5 +6,5 @@ def devide(a,b):
         raise ValueError("Denominator could not be zero")
     return a/b
 
-
-print("Hi")
+def substruct(a, b):
+    return a - b
