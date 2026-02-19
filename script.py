@@ -7,8 +7,10 @@ def devide(a,b):
     return a/b
 
 def substruct(a, b):
-    result = a.replace(b, "")
-    return result
-
+    if isinstance(a, str) and isinstance(b, str):
+        result = a.replace(b, "")
+        return result
+    return a - b
 
 print("Hi")
+
